@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 34, 70);
+}
+
+
+.heading{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(216, 216, 166);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    margin: 30px;
+}
+
+.squares{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    border: 10px solid black;
+}
+
+.red{
+    background-color: rgb(223, 20, 20);
+}
+.blue{
+    background-color: rgb(56, 56, 186);
+}
+.yellow{
+    background-color: rgb(223, 223, 22);
+}
+.green{
+    background-color: rgb(20, 185, 20);
+}
+
+.pressed{
+    box-shadow: 5px 5px 5px 5px rgb(145, 139, 139);
+
+}
+
+.game-over{
+    
+}
